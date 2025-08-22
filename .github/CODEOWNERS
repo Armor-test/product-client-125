@@ -1,0 +1,35 @@
+# CODEOWNERS file for product-client-125
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-tooling @Armor-test/grp-payments @Armor-test/dept-identity
+
+# Directory ownership
+/plugins/ @Armor-test/squad-ux @Armor-test/dept-test @Armor-test/team-logging
+/examples/ @Armor-test/squad-payments @Armor-test/squad-ml @Armor-test/dept-logging
+/internal/ @Armor-test/squad-database @Armor-test/team-governance
+/deploy/ @Armor-test/dept-api @Armor-test/squad-ux
+/tests/ @Armor-test/team-governance @Armor-test/dept-identity @Armor-test/squad-database
+/assets/ @Armor-test/unit-governance @Armor-test/squad-cache
+/db/ @Armor-test/squad-tooling @Armor-test/squad-cloud @Armor-test/squad-search
+/services/ @Armor-test/dept-test @Armor-test/squad-ux
+/hooks/ @Armor-test/dept-test @Armor-test/team-reporting @Armor-test/dept-automation
+/api/ @Armor-test/dept-ui @Armor-test/team-frontend @Armor-test/unit-cloud
+/shared/ @Armor-test/team-frontend @Armor-test/squad-reporting @Armor-test/squad-product
+
+# File type ownership
+*.yaml @Armor-test/grp-api @Armor-test/squad-tooling
+*.tf @Armor-test/dept-api @Armor-test/unit-governance
+*.h @Armor-test/grp-payments @Armor-test/squad-cache @Armor-test/grp-ui
+*.xml @Armor-test/team-reporting @Armor-test/squad-ux
+*.kt @Armor-test/squad-apps @Armor-test/dept-reliability @Armor-test/dept-logging
+*.yml @Armor-test/dept-automation @Armor-test/team-security
+*.css @Armor-test/squad-reporting @Armor-test/dept-security @Armor-test/squad-search
+*.jsx @Armor-test/dept-test @Armor-test/squad-api
+*.scss @Armor-test/grp-storage @Armor-test/squad-product
+*.c @Armor-test/team-security @Armor-test/dept-billing @Armor-test/grp-payments
+*.config @Armor-test/squad-ml @Armor-test/team-security @Armor-test/team-frontend
+*.java @Armor-test/squad-apps @Armor-test/team-core
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
